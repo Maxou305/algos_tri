@@ -1,4 +1,4 @@
-function insertSort(){
+function insertSort(data){
     let sortedData = []
     for (let elmt of data){
         let i = 0
@@ -9,4 +9,22 @@ function insertSort(){
     }
     return sortedData
 }
-console.log("sortedData :", insertSort())
+
+
+
+
+
+
+
+
+function selectionSort(data){
+    let min = Math.min.apply(Math, data)
+    console.log(min)
+    for (let i = 0; i < data.length; i++){
+    }
+    return data
+}
+
+
+console.log("sortedData par insertion :", insertSort(data))
+console.log("sortedData par selection :", selectionSort(data))
